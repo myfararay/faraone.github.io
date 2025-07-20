@@ -1,0 +1,623 @@
+<!DOCTYPE html><!-- Handled by Exflow.site --><html data-wf-page="65de3f97b611f57954d12eaa" data-wf-site="65de3f97b611f57954d12e4b" lang="en" data-wf-collection="65de3f97b611f57954d12ed5" data-wf-item-slug="private-jets"><head><meta charset="utf-8"/><title>g.far</title><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="../css/faraone.webflow.shared.02efedb92.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="../images/app-icon.png" rel="apple-touch-icon"/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<!--head Code-->
+<style>
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+}
+  
+.active-flip-item {z-index: 2;}
+</style>
+<style>
+/* Close State */
+.tabs_tab.closed {
+  width: 8.44rem;
+  text-align: center;
+  padding: 0rem 1.56rem 3.75rem 1.56rem;
+  align-items: center;
+}
+
+.tabs_tab.closed .tabs_tab-content-right  {
+  position: absolute;
+  padding: 4rem 3.91rem 0rem 3.91rem;
+  align-items: start
+}
+
+.tabs_tab.closed .heading-style-h1 {
+  font-size: 1rem;
+}
+
+.tabs_tab.closed .tab-heading_link {
+  display:none;
+}
+
+.tabs_tab.closed .tabs_tab-content-left {
+  opacity: 0
+}
+
+@media screen and (max-width:479px) {
+  /* Close State */
+
+.tabs_tab.closed .tab-heading_link {
+  display:flex;
+  opacity: 0;
+  height: 0px
+}
+.tabs_tab.closed .tabs_tab-heading {
+grid-row-gap: 0svh;
+}
+
+.tabs_tab.closed {
+  width: 2.75rem;
+  text-align: center;
+  padding: 0rem 0.19rem 3svh 0.3rem;
+  align-items: start;
+}
+
+.tabs_tab.closed .tabs_tab-content-right  {
+  position: absolute;
+  padding: 9.852svh 1.25rem 17.734svh 1.25rem;
+  align-items: start
+}
+
+.tabs_tab.closed .heading-style-h1 {
+  font-size: 0.4375rem
+}
+  
+}
+</style>
+
+<!-- LENIS CSS -->
+<style>
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+</style>
+<style>
+.w-webflow-badge {display:none!important}
+</style></head><body data-barba="wrapper"><div class="page-wrapper"><div class="styles_global w-embed"><style>
+  html { font-size: calc(0.00007284079084290962rem + 1.1110301768990634vw); }
+  @media screen and (max-width:1440px) { html { font-size: calc(0.00007284079084285411rem + 1.1110301768990636vw); } }
+  @media screen and (max-width:479px) { html { font-size: calc(0.0012019230769234612rem + 4.26153846153846vw); } }
+  @media screen and (max-width:375px) { html { font-size: calc(-0.00267379679144385rem + 4.27807486631016vw); } }
+
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Set color style to inherit */
+.inherit-color * {
+    color: inherit;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+</style></div><nav class="navigation"><div class="nav-wrapper"><div class="padding-global padding-section-nav"><div class="container-nav"><a data-barba-prevent="" href="/" class="main_link w-inline-block"><p class="caption">[ grigorii f. ]</p></a><div class="menu_btn"><p class="caption">[ menu ]</p><div class="nav_hamburger_base"></div></div></div><div class="menu_wrap"><div class="menu_base"></div><div data-barba-prevent="all" class="menu_contain"><a href="/" class="menu_link">[home]</a><a href="/about" class="menu_link">[about]</a><a href="/works" class="menu_link">[works]</a><a href="/services" class="menu_link">[services]</a></div></div></div></div><div class="transition_wrap"><div class="transition_column"></div><div class="transition_column"></div><div class="transition_column"></div><div class="transition_column"></div><div class="transition_column"></div></div></nav><div data-barba-namespace="cms-page" data-barba="container" class="main-wrapper cms-page"><div class="section_description-work"><div class="padding-global padding-section-medium"><div class="container-works"><div class="margin-bottom margin-1-88"><div class="container_flext-hrzntl align-end mob"><h1 data-split-text="" class="heading-style-h2">Mira - Private Jets</h1><a href="/works" class="button service-page w-inline-block"><p>back to gallery</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" class="tab-heading_link-icon"><path d="M12.3536 4.85355C12.5488 4.65829 12.5488 4.34171 12.3536 4.14645L9.17157 0.964466C8.97631 0.769204 8.65973 0.769204 8.46447 0.964466C8.2692 1.15973 8.2692 1.47631 8.46447 1.67157L11.2929 4.5L8.46447 7.32843C8.2692 7.52369 8.2692 7.84027 8.46447 8.03553C8.65973 8.2308 8.97631 8.2308 9.17157 8.03553L12.3536 4.85355ZM0 5H12V4H0V5Z" fill="currentColor"></path></svg></a></div></div><div class="cms-page_img-wrap"><img src="../images/cover-20-11-.webp" loading="lazy" alt="Website development for Private Jet. UI/UX &amp; low‑code Webflow designer specializing in pixel‑perfect, interactive builds—JavaScript logic, GSAP animations, and AI‑powered workflows." class="visual"/><div class="item-name">Mira - Private Jets</div></div></div></div></div><div class="section_description-work"><div class="padding-global padding-section-medium"><div class="container-works"><div class="w-layout-grid description_grid"><div id="w-node-d67d2969-fedb-7d71-11b7-1fd452383336-54d12eaa" class="description_item"><div class="margin-bottom margin-2-5"><div data-split-text="" class="heading-style-h2">[The solution]</div></div></div><div id="w-node-_6f60c4cb-3489-99f5-045b-7b2646ad4fff-54d12eaa" class="description_small-grid"><div class="margin-bottom margin-2-5"><div class="description-text_works w-richtext"><p>Developed a multilingual website (English, Russian, Arabic) for a private jet charter company. Implemented 3D scroll effects, GSAP animations, and Swiper sliders. Built a scalable CMS with over 300 pages (catalog, countries, cities) and advanced filtering. Integrated a custom mega menu for improved navigation. Optimized for performance, usability, and SEO.</p></div></div><div class="description_wrapper margin-bottom margin-2-5"><div id="w-node-ae9273e7-a901-c932-de55-ee4c9acab764-54d12eaa" class="description_item"><div class="margin-bottom margin-0-75"><div class="caption text-color-secondary">[technologies]</div></div><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><p>Custom CSS</p></div><div role="listitem" class="w-dyn-item"><p>GSAP</p></div><div role="listitem" class="w-dyn-item"><p>JavaScript</p></div><div role="listitem" class="w-dyn-item"><p>Webflow</p></div><div role="listitem" class="w-dyn-item"><p>3d integration</p></div><div role="listitem" class="w-dyn-item"><p>CMS</p></div></div></div></div><div id="w-node-_2ac68524-2416-d5db-674c-04cbbf24b9f7-54d12eaa" class="description_item"><div class="margin-bottom margin-0-75"><div class="caption text-color-secondary">[role]</div></div><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><p>Development</p></div><div role="listitem" class="w-dyn-item"><p>Web design</p></div></div></div></div></div><a href="#" class="button works-page w-inline-block"><p>open the case</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" class="tab-heading_link-icon"><path d="M12.3536 4.85355C12.5488 4.65829 12.5488 4.34171 12.3536 4.14645L9.17157 0.964466C8.97631 0.769204 8.65973 0.769204 8.46447 0.964466C8.2692 1.15973 8.2692 1.47631 8.46447 1.67157L11.2929 4.5L8.46447 7.32843C8.2692 7.52369 8.2692 7.84027 8.46447 8.03553C8.65973 8.2308 8.97631 8.2308 9.17157 8.03553L12.3536 4.85355ZM0 5H12V4H0V5Z" fill="currentColor"></path></svg></a><a href="https://mira-private-jets.webflow.io/" target="_blank" class="button works-page w-inline-block"><p>open the website</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" class="tab-heading_link-icon"><path d="M12.3536 4.85355C12.5488 4.65829 12.5488 4.34171 12.3536 4.14645L9.17157 0.964466C8.97631 0.769204 8.65973 0.769204 8.46447 0.964466C8.2692 1.15973 8.2692 1.47631 8.46447 1.67157L11.2929 4.5L8.46447 7.32843C8.2692 7.52369 8.2692 7.84027 8.46447 8.03553C8.65973 8.2308 8.97631 8.2308 9.17157 8.03553L12.3536 4.85355ZM0 5H12V4H0V5Z" fill="currentColor"></path></svg></a></div></div></div></div></div><div class="section_description-work"><div class="padding-global padding-section-cases"><div class="container-works"><div class="w-layout-grid cases_grid"><div id="w-node-_415006a3-36d9-039b-c5e7-567ebf5db098-54d12eaa" class="cases-img_wrapper"><img src="../images/home-screen-20-10-.webp" loading="lazy" alt="Website development for Private Jet. UI/UX &amp; low‑code Webflow designer specializing in pixel‑perfect, interactive builds—JavaScript logic, GSAP animations, and AI‑powered workflows." class="hero-img"/><div class="cases_description"><div class="text-weight-semibold muthed">01 ]</div><div class="text-weight-semibold">Home screen</div></div></div><div class="cases-img_wrapper"><img src="../images/img-1-20-4-.webp" loading="lazy" alt="Website development for Private Jet. UI/UX &amp; low‑code Webflow designer specializing in pixel‑perfect, interactive builds—JavaScript logic, GSAP animations, and AI‑powered workflows." class="img-1"/><div class="cases_description"><div class="text-weight-semibold muthed">02 ]</div><div class="text-weight-semibold">Aircraft catalog</div></div></div><div class="cases-img_wrapper"><img src="../images/img-2-20-4-.webp" loading="lazy" alt="Website development for Private Jet. UI/UX &amp; low‑code Webflow designer specializing in pixel‑perfect, interactive builds—JavaScript logic, GSAP animations, and AI‑powered workflows." class="img-2"/><div class="cases_description"><div class="text-weight-semibold muthed">03 ]</div><div class="text-weight-semibold">Browse by region</div></div></div><div id="w-node-_4b2f02f7-924f-01cd-1905-b70b54f8bbe6-54d12eaa" class="kinescope-wrapper"><div class="kinescope-container"><div data-kinescope-id="{{kinescope_id}}" class="kinescope-id">wro1UXsprV72h5pio7cZYg</div></div><div class="cases_description"><div class="text-weight-semibold muthed">04 ]</div><div class="text-weight-semibold">Screen cast</div></div></div><div id="w-node-bd638c8b-c80e-0561-035b-fc4d38c70515-54d12eaa" class="iframe-wrapper"><div id="w-node-a6381e11-534d-cca8-cc01-108fa6890caf-54d12eaa" class="live-site-container"><div data-site-url="{{site_url}}" class="site-url">https://mira-private-jets.webflow.io/</div></div><div class="cases_description"><div class="text-weight-semibold muthed">05 ]</div><div class="text-weight-semibold">Live website <span class="text-weight-normal muthed">(The website may be modified or unavailable)</span></div></div></div></div></div></div></div></div><div class="footer"><div class="padding-global padding-section-footer"><div class="grid-footer"><div id="w-node-ca9d47bc-f1a3-086a-4e5f-fece159b0675-159b0672" class="column_left"><div class="margin-bottom margin-2-5"><div class="heading-style-h3">For any collaborative projects <br/>or inquiries feel free to reach out to me.</div></div><div class="connect_wrapper"><p>Currently available <br/>for freelance projects</p><a href="https://t.me/myfararay" target="_blank" class="button service-page w-inline-block"><p>Let&#x27;s connect in telegram</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" class="tab-heading_link-icon"><path d="M12.3536 4.85355C12.5488 4.65829 12.5488 4.34171 12.3536 4.14645L9.17157 0.964466C8.97631 0.769204 8.65973 0.769204 8.46447 0.964466C8.2692 1.15973 8.2692 1.47631 8.46447 1.67157L11.2929 4.5L8.46447 7.32843C8.2692 7.52369 8.2692 7.84027 8.46447 8.03553C8.65973 8.2308 8.97631 8.2308 9.17157 8.03553L12.3536 4.85355ZM0 5H12V4H0V5Z" fill="currentColor"></path></svg></a></div></div><div class="social_wrapper"><a href="https://dprofile.ru/g.far/cv" target="_blank" class="footer_links">CV</a><a href="https://t.me/myfararay" target="_blank" class="footer_links">Telegram</a><a href="https://www.behance.net/thefaraone" target="_blank" class="footer_links">Behance</a><a href="https://dprofile.ru/g.far" target="_blank" class="footer_links">Dprofile</a></div><div id="w-node-ca9d47bc-f1a3-086a-4e5f-fece159b068c-159b0672" class="column_right-footer"><div data-split-text="" class="heading-style-h1 footer hide-mobile-portrait">2024<br/>g.far</div><div data-split-text="" class="heading-style-h1 text-align-right mob_text-align-left footer">start<br/>a Project</div></div></div></div></div></div><div class="collection-fields w-embed"><script>
+(function () {
+  function initKinescopePlayers() {
+    document.querySelectorAll('.kinescope-container:not([data-initialized])').forEach(container => {
+      container.dataset.initialized = "true";
+      const idElement = container.querySelector('.kinescope-id');
+      if (!idElement) return;
+      const kinescopeId = idElement.textContent.trim();
+
+      if (!kinescopeId || !/^[a-zA-Z0-9]{20,}$/.test(kinescopeId)) {
+        container.innerHTML = '<div class="kinescope-error">Invalid video ID</div>';
+        return;
+      }
+
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://kinescope.io/embed/${kinescopeId}`;
+      iframe.allow = "fullscreen; picture-in-picture; encrypted-media";
+      iframe.frameBorder = '0';
+      iframe.loading = 'lazy';
+      iframe.allowFullscreen = true;
+      iframe.classList.add('kinescope-iframe');
+      iframe.style.borderRadius = '0.5rem';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      iframe.onerror = () => {
+        container.innerHTML = '<div class="kinescope-error">Video loading failed</div>';
+      };
+
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    });
+  }
+
+  function initLiveSites() {
+    document.querySelectorAll('.live-site-container:not([data-initialized])').forEach(container => {
+      container.dataset.initialized = "true";
+      const urlElement = container.querySelector('.site-url');
+      if (!urlElement) return;
+      const siteUrl = urlElement.textContent.trim();
+
+      if (!siteUrl || !/^https?:\/\/.+/.test(siteUrl)) {
+        container.innerHTML = '<div class="site-error">Invalid site URL</div>';
+        return;
+      }
+
+      const iframe = document.createElement('iframe');
+      iframe.src = siteUrl;
+      iframe.title = 'Пример сайта';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.border = 'none';
+      iframe.style.borderRadius = '0.5rem';
+      iframe.loading = 'lazy';
+      iframe.onerror = () => {
+        container.innerHTML = '<div class="site-error">Site loading failed</div>';
+      };
+
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    });
+  }
+
+  function initAllEmbeds() {
+    try {
+      initKinescopePlayers();
+      initLiveSites();
+    } catch (e) {
+      console.error('Embed init error:', e);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAllEmbeds);
+  } else {
+    initAllEmbeds();
+  }
+
+  const observer = new MutationObserver((mutationsList) => {
+    for (const mutation of mutationsList) {
+      mutation.addedNodes.forEach((node) => {
+        if (
+          node.nodeType === 1 &&
+          node.matches('[data-barba="container"]') &&
+          node.dataset.barbaNamespace === "cms-page"
+        ) {
+          initAllEmbeds();
+        }
+      });
+    }
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+
+  document.addEventListener('wf-collection-loaded', initAllEmbeds);
+})();
+</script></div><script src="../js/jquery.js?site=65de3f97b611f57954d12e4b" type="text/javascript"  ></script><script src="../js/webflow.schunk.3b58b0126ec020df.js" type="text/javascript"></script><script src="../js/webflow-script.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Flip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<!--Footer Code-->
+<script>
+ let swiper;
+    function createSwiper() {
+        swiper = new Swiper(".swiper", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            keyboard: true,
+            centeredSlides: true,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1.3
+                },
+                768: {
+                    slidesPerView: 3
+                }
+            },
+            speed: 300
+        });
+    }
+    createSwiper();
+
+
+
+    function resetWebflow(data) {
+        let parser = new DOMParser();
+        let dom = parser.parseFromString(data.next.html, "text/html");
+        let webflowPageId = $(dom).find("html").attr("data-wf-page");
+        $("html").attr("data-wf-page", webflowPageId);
+        window.Webflow && window.Webflow.destroy();
+        window.Webflow && window.Webflow.ready();
+        window.Webflow && window.Webflow.require("ix2").init();
+    }
+
+    function makeItemActive() {
+        let cmsPageName = $(".cms-page").find(".item-name").text();
+        $(".w-dyn-item").each(function (index) {
+            if ($(this).find(".item-name").text() === cmsPageName) {
+                $(this).addClass("active-flip-item");
+            }
+        });
+    }
+
+    function flip(outgoing, incoming) {
+        let state = Flip.getState(outgoing.find(".visual"));
+        incoming.find(".visual").remove();
+        outgoing.find(".visual").appendTo(incoming);
+        Flip.from(state, { duration: 0.5, ease: "power1.inOut" });
+    }
+
+    barba.hooks.after((data) => {
+        $(data.next.container).removeClass("fixed");
+        $(".active-flip-item").removeClass("active-flip-item");
+        $(window).scrollTop(0);
+        resetWebflow(data);
+    });
+
+    barba.init({
+        preventRunning: true,
+        transitions: [
+            {
+                sync: true,
+                from: { namespace: ["grid-page"] },
+                to: { namespace: ["cms-page"] },
+                enter(data) {
+
+                    makeItemActive();
+                    $(data.next.container).addClass("fixed");
+                    flip($(".active-flip-item"), $(".cms-page_img-wrap"));
+                    return gsap.to(data.current.container, { opacity: 0, duration: 0.5 });
+                }
+            },
+            {
+                sync: true,
+                from: { namespace: ["cms-page"] },
+                to: { namespace: ["grid-page"] },
+                enter(data) {
+
+                    makeItemActive();
+                    createSwiper();
+
+                    swiper.slideTo($(".active-flip-item").index(), 0);
+
+                    $(data.next.container).addClass("fixed");
+                    flip($(".cms-page_img-wrap"), $(".active-flip-item .visual_wrap"));
+                    return gsap.to(data.current.container, { opacity: 0, duration: 0.5 });
+                }
+            }
+        ]
+    });
+</script>
+<script>
+$(".navigation").each(function () {
+        let hamburgerEl = $(this).find(".menu_btn");
+        let navLineEl = $(this).find(".nav_hamburger_line");
+        let menuContainEl = $(this).find(".menu_contain");
+        let flipItemEl = $(this).find(".nav_hamburger_base");
+        let menuWrapEl = $(this).find(".menu_wrap");
+        let menuBaseEl = $(this).find(".menu_base");
+        let menuLinkEl = $(this).find(".menu_link");
+
+        let flipDuration = 0.6;
+
+        function flip(forwards) {
+            let state = Flip.getState(flipItemEl);
+            if (forwards) {
+                flipItemEl.appendTo(menuContainEl);
+            } else {
+                flipItemEl.appendTo(hamburgerEl);
+            }
+            Flip.from(state, { duration: flipDuration });
+        }
+
+        let tl = gsap.timeline({ paused: true });
+        tl.set(menuWrapEl, { display: "flex" });
+        tl.from(menuBaseEl, {
+            opacity: 0,
+            duration: flipDuration,
+            ease: "none",
+            onStart: () => {
+                flip(true);
+            }
+        });
+        tl.to(navLineEl.eq(0), { y: 4, rotate: 45, duration: flipDuration }, "<");
+        tl.to(navLineEl.eq(1), { y: -4, rotate: -45, duration: flipDuration }, "<");
+        tl.from(menuLinkEl, {
+            opacity: 0,
+            yPercent: 50,
+            duration: 0.2,
+            stagger: { amount: 0.2 },
+            onReverseComplete: () => {
+                flip(false);
+            }
+        });
+
+        function openMenu(open) {
+            if (!tl.isActive()) {
+                if (open) {
+                    tl.play();
+                    hamburgerEl.addClass("nav-open");
+                    // Изменяем текст на [close] при открытии с анимацией
+                    let caption = hamburgerEl.find('.caption');
+                    gsap.to(caption, {
+                        duration: 0.2, // Продолжительность анимации текста
+                        ease: "power2.inOut", // Изинг анимации текста
+                        opacity: 0, // Сначала делаем текст прозрачным
+                        onComplete: function () {
+                            caption.text('[close]'); // Меняем текст
+                            gsap.to(caption, { opacity: 1, duration: 0.2, ease: "power2.inOut" }); // Делаем текст снова видимым
+                        }
+                    });
+                } else {
+                    tl.reverse();
+                    hamburgerEl.removeClass("nav-open");
+                    // Возвращаем исходный текст при закрытии с анимацией
+                    let caption = hamburgerEl.find('.caption');
+                    gsap.to(caption, {
+                        duration: 0.2,
+                        ease: "power2.inOut",
+                        opacity: 0,
+                        onComplete: function () {
+                            caption.text('[menu]'); // Изменяем текст обратно
+                            gsap.to(caption, { opacity: 1, duration: 0.2, ease: "power2.inOut" });
+                        }
+                    });
+                }
+            }
+        }
+
+
+
+        hamburgerEl.on("click", function () {
+            if ($(this).hasClass("nav-open")) {
+                openMenu(false);
+            } else {
+                openMenu(true);
+            }
+        });
+
+        menuBaseEl.on("mouseenter", function () {
+            openMenu(false);
+        });
+        menuBaseEl.on("click", function () {
+            openMenu(false);
+        });
+
+        $(document).on("keydown", function (e) {
+            if (e.key === "Escape") {
+                openMenu(false);
+            }
+        });
+    });
+ </script>
+<!--Foter Code-->
+<script>
+$(".tabs_tab").on("mouseenter touchstart", function () {
+  // record starting state
+  const state = Flip.getState(".tabs_tab, .tabs_tab-content-left, .heading-style-h1, .tab-heading_link, .tabs_tab-content-right", {
+    props: "fontSize,padding,opacity,height"
+  });
+  // make changes
+  $(this).siblings().addClass("closed");
+  $(this).removeClass("closed");
+  // animate
+  Flip.from(state, {
+    duration: 1.5,
+    nested: true,
+    absolute: true,
+    ease: "power1.inOut"
+  });
+});
+</script>
+
+<!-- LENIS -->
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
+
+<script>
+const lenis = new Lenis();
+
+window.__GLOBAL_LENIS = lenis;
+
+lenis.on('scroll', (e) => {})
+
+function raf(time) {
+	lenis.raf(time)
+	requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
+</script></body></html>
